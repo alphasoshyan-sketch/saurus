@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>한국 공룡 소개 사이트</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('saurus.gif') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    header {
+      background: rgba(20,40,160,0.8);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: column; /* 세로 나열 */
+      align-items: center;
+      padding: 40px;
+    }
+    .card {
+      background: rgba(0,0,0,0.6);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+      margin: 15px;
+      width: 300px;
+      text-align: center;
+      transition: transform 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      color: #ffd700;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background: rgba(0,0,0,0.8);
+    }
+    .card-content {
+      padding: 20px;
+    }
+    footer {
+      background: rgba(20,40,160,0.8);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>한국 공룡 소개 사이트 TOP 4</h1>
+  </header>
+
+  <div class="container">
+    <a href="https://www.science.go.kr" target="_blank" class="card">
+      <div class="card-content">국립중앙과학관</div>
+    </a>
+
+    <a href="https://encykorea.aks.ac.kr" target="_blank" class="card">
+      <div class="card-content">한국민족문화대백과사전</div>
+    </a>
+
+    <a href="https://dino-museum.goseong.go.kr" target="_blank" class="card">
+      <div class="card-content">고성 공룡박물관</div>
+    </a>
+
+    <a href="https://www.jeonnam.go.kr" target="_blank" class="card">
+      <div class="card-content">해남·보성 공룡 발자국 유적지</div>
+    </a>
+  </div>
+
+  <footer>
+    <p>© 2026 한국 공룡 탐험 가이드</p>
+  </footer>
+</body>
+</html>

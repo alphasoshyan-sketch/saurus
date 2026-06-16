@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>배너 페이지</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0b1d3a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .banner {
+      background: #1428a0;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      padding: 40px 80px;
+      border-radius: 15px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.3s, background 0.3s;
+      text-decoration: none;
+    }
+    .banner:hover {
+      transform: scale(1.05);
+      background: #1f3bd6;
+    }
+  </style>
+</head>
+<body>
+  <!-- 배너 클릭 시 index_0.html로 이동 -->
+  <a href="index_0.html" class="banner">한국 공룡 소개 사이트</a>
+</body>
+</html>
