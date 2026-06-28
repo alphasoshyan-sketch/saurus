@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- Round container to fit standard browser tab layouts beautifully -->
+  <rect width="100%" height="100%" rx="24" fill="#1428a0" />
+  
+  <!-- Outer gold ring accent for high visibility on both dark and light tabs -->
+  <rect x="4" y="4" width="92" height="92" rx="20" fill="none" stroke="#ffd700" stroke-width="4" />
+  
+  <!-- Cute stylized Brachiosaurus (Saurus) silhouette in gold -->
+  <path d="M 75 25
+           C 70 20, 62 20, 58 25
+           C 55 28, 56 34, 54 38
+           C 51 45, 46 52, 40 56
+           C 34 60, 26 62, 18 64
+           C 14 65, 12 68, 14 71
+           C 16 74, 20 73, 24 72
+           C 35 69, 44 65, 48 74
+           C 49 76, 51 78, 54 78
+           C 57 78, 59 75, 58 72
+           C 57 68, 56 64, 60 62
+           C 66 58, 72 52, 75 44
+           C 77 38, 78 30, 75 25 Z" fill="#ffd700" />
+  
+  <!-- Dino eye -->
+  <circle cx="68" cy="25" r="2" fill="#1428a0" />
+</svg>
