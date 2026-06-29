@@ -30,6 +30,17 @@
       transform: scale(1.05);
       background: #1f3bd6;
     }
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .share-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
   </style>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHKEB2NZHF"></script>
@@ -42,7 +53,20 @@
   </script>
 </head>
 <body>
-  <!-- 배너 클릭 시 index_0.html로 이동 -->
-  <a href="index_0.html" class="banner">한국 공룡 소개 사이트</a>
+  <div class="main-container">
+    <!-- 배너 클릭 시 index_0.html로 이동 -->
+    <a href="index_0.html" class="banner">한국 공룡 소개 사이트</a>
+
+    <!-- AddToAny BEGIN -->
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style share-container">
+      <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+      <a class="a2a_button_facebook"></a>
+      <a class="a2a_button_sms"></a>
+      <a class="a2a_button_kakao"></a>
+      <a class="a2a_button_email"></a>
+    </div>
+    <script defer src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- AddToAny END -->
+  </div>
 </body>
 </html>
